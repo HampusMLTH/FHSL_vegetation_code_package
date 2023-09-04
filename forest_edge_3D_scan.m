@@ -28,7 +28,7 @@
 load('range_FHSL_stensoffa')
 load('la.mat');
 fn='D:\scan_15_8\vegetation_scan_night_45_30\';
-range_vector = interp1(1:length(range_vector),range_vector,1:0.5:length(range_vector))
+range_vector = interp1(1:length(ra),ra,1:0.5:length(ra));
 swipe_angle = 45;
 
 for vert_i = 0:30
